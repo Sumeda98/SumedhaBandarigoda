@@ -29,7 +29,6 @@ function Header() {
       <Navbar.Brand className="logotext" as={Link} to="/">
         <div className="logo"></div>
       </Navbar.Brand>
-
       <Navbar.Toggle
         className="navbar-toggler"
         aria-controls="responsive-navbar-nav"

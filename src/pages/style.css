@@ -139,7 +139,6 @@
 .homepagebackground {
   width: 100%;
   height: 100vh;
-  background-color: #4158d0;
   background-color: #00bfb2;
   background: radial-gradient(ellipse farthest-corner at var(--x) 0%, #b5feff 0%, #00bfb2 8%, #028090 25%, #350163 62.5%, #013c43 100%);
   animation: colorChange 15s infinite alternate;
@@ -238,18 +237,6 @@
   background-position: center;
 }
 
-/* .imagedeveloper:hover {
-  animation: upDownAnimation 1s infinite alternate;
-}
-
-@keyframes upDownAnimation {
-  from {
-    margin-top: 50px;
-  }
-  to {
-    margin-top: 70px;
-  }
-} */
 
 
 .socailmediabtn {
