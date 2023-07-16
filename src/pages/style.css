@@ -161,6 +161,8 @@
   100% {
     --x:100%;
   }
+
+  
 }
 .row {
   padding-top: 80px;
@@ -297,7 +299,8 @@
   height: 100%;
   min-height: 100vh;
   background-color: #4158d0;
-  background: radial-gradient(ellipse farthest-corner at var(--x) 0%, #7efdff 0%, #00bfb2 8%, #028090 25%, #350163 62.5%, #013c43 100%);
+  background: radial-gradient(ellipse farthest-corner at 0% 0%, #b5feff 0%, #00bfb2 8%, #028090 25%, #350163 62.5%, #013c43 100%);
+
   padding-top: 110px;
 }
 .textbackground {
@@ -371,7 +374,8 @@
   width: 100%;
   height: 100%;
   background-color: #4158d0;
-  background: radial-gradient(ellipse farthest-corner at var(--x) 0%, #7efdff 0%, #00bfb2 8%, #028090 25%, #350163 62.5%, #013c43 100%);
+  background: radial-gradient(ellipse farthest-corner at 0% 0%, #b5feff 0%, #00bfb2 8%, #028090 25%, #350163 62.5%, #013c43 100%);
+
 }
 .project-section {
   position: relative !important;
@@ -448,7 +452,8 @@
   height: 100%;
   min-height: 100vh;
   background-color: #4158d0;
-  background: radial-gradient(ellipse farthest-corner at var(--x) 0%, #7efdff 0%, #00bfb2 8%, #028090 25%, #350163 62.5%, #013c43 100%);
+  background: radial-gradient(ellipse farthest-corner at 0% 0%, #b5feff 0%, #00bfb2 8%, #028090 25%, #350163 62.5%, #013c43 100%);
+
   padding-top: 110px;
 }
 .contacthead {
