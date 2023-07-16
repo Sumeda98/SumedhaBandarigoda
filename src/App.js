@@ -54,11 +54,11 @@ function App() {
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Routes>
+            <Route path="/SumedhaBandarigoda" element={<Home />}></Route>
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/project" element={<Project />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
-            <Route path="/SumedhaBandarigoda" element={<Home />}></Route>
           </Routes>
         </div>
       </Router>
