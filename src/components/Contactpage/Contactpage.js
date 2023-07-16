@@ -24,7 +24,7 @@ function Contactpage() {
         <span></span>
         <p className="copyright">
           <hr />
-          Designed & Built by <span>Sumedha Bandarigoda</span>
+          Designed & Built by <span>Sumedha Bandarigoda.</span>
         </p>
       </Container>
     </div>
