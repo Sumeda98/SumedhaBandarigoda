@@ -15,7 +15,7 @@ function App() {
     x: 0,
     y: 0
   });
-  console.log(mousePosition);
+  // console.log(mousePosition);
 
   useEffect(() => {
     const mouseMove = e => {
@@ -55,7 +55,7 @@ function App() {
         animate="default"
       />
       <Router>
-        {/* <Preloader load={load} /> */}
+        <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Routes>
             <Route path='/' element={<Home />}></Route>
