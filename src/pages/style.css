@@ -136,14 +136,14 @@
 
 /* Homepage style */
 
-.homepagebackground {
+
+/* .homepagebackground {
   width: 100%;
   height: 100vh;
   background-color: #00bfb2;
   background: radial-gradient(ellipse farthest-corner at var(--x) 0%, #b5feff 0%, #00bfb2 8%, #028090 25%, #350163 62.5%, #013c43 100%);
   animation: colorChange 15s infinite alternate;
 }
-
 
 @property --x {
   syntax: '<percentage>';
@@ -161,9 +161,31 @@
   100% {
     --x:100%;
   }
+} */
 
-  
+
+
+.homepagebackground {
+  width: 100%;
+  height: 100vh;
+  background-color: #00bfb2;
+  background-image: radial-gradient(ellipse farthest-corner at 100% 1%, #b5feff 0%, #00bfb2 8%, #028090 25%, #350163 62.5%, #013c43 100%);
+  background-size: 150% 150%; /* Adjust the size as needed */
+  animation: colorChange 10s infinite alternate;
 }
+
+@keyframes colorChange {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+
+
+
 .row {
   padding-top: 80px;
 }
