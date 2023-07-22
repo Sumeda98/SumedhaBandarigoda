@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SumedhaBandarigoda/static/css/main.db2898c3.css",
-    "main.js": "/SumedhaBandarigoda/static/js/main.44d0e169.js",
+    "main.css": "/SumedhaBandarigoda/static/css/main.5ba0eb4e.css",
+    "main.js": "/SumedhaBandarigoda/static/js/main.d59f73e4.js",
     "static/media/SumedhaIMG1.png": "/SumedhaBandarigoda/static/media/SumedhaIMG1.3ed84f57bd4a3d683992.png",
     "static/media/web-removebg-preview.png": "/SumedhaBandarigoda/static/media/web-removebg-preview.9fed7f1d0b7ca01038fd.png",
     "static/media/bars.svg": "/SumedhaBandarigoda/static/media/bars.a2e35dd5aede7934d82e.svg",
     "index.html": "/SumedhaBandarigoda/index.html",
-    "main.db2898c3.css.map": "/SumedhaBandarigoda/static/css/main.db2898c3.css.map",
-    "main.44d0e169.js.map": "/SumedhaBandarigoda/static/js/main.44d0e169.js.map"
+    "main.5ba0eb4e.css.map": "/SumedhaBandarigoda/static/css/main.5ba0eb4e.css.map",
+    "main.d59f73e4.js.map": "/SumedhaBandarigoda/static/js/main.d59f73e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.db2898c3.css",
-    "static/js/main.44d0e169.js"
+    "static/css/main.5ba0eb4e.css",
+    "static/js/main.d59f73e4.js"
   ]
 }
