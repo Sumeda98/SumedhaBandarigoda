@@ -99,7 +99,6 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
   border: none;
 }
-
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 0rem !important;
@@ -511,8 +510,7 @@
   animation-name: contactbtn-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
   animation-iteration-count: infinite; /* Never stop waving :) */
-  animation-delay: 5s;
-  
+  animation-delay: 2s;
 }
 
 @keyframes contactbtn-animation {
