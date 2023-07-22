@@ -89,7 +89,9 @@ function Header() {
             }}
             className="resumebtn"
           >
-            <span>Resume</span>
+            <span style={{marginRight:'8px'}}>Resume</span>
+            <i  style={{fontSize:'12px',color:'#585555'}} class="fa fa-download" aria-hidden="true"></i>
+            
           </Button>
         </Nav>
       </Navbar.Collapse>

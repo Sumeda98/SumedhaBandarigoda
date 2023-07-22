@@ -8,7 +8,7 @@ function Contactpage() {
       <Container>
         <h2 className="contacthead">Get In Touch</h2>
         <p className="contactpara">
-          I’m currently searching for opportunities for a front-end developer
+          I’m currently searching for opportunities for a UI UX Engineer front-end developer
           role. <br /> If there is any vacancy my inbox is always open. Whether
           <br /> you have any further questions or just want to say hi, <br />
           I’ll try my best to get back to you!
@@ -22,10 +22,10 @@ function Contactpage() {
           Say Hello
         </button>
         <span></span>
-        <p className="copyright">
+        {/* <p className="copyright">
           <hr />
-          Designed & Built by <span>Sumedha Bandarigoda.</span>
-        </p>
+          <span> Designed & Built by: Sumedha Bandarigoda.</span>
+        </p> */}
       </Container>
     </div>
   );

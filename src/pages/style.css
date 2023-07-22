@@ -80,7 +80,7 @@
   color: white !important;
   font-size: 16px !important;
   letter-spacing: 1px;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   padding-right: 2rem !important;
   padding-left: 1rem !important;
   font-family: 'Poppins';
@@ -329,14 +329,14 @@
   width: 100%;
   height: 100%;
   padding: 1rem;
-  background-color: transparent;
+  background-color: #0000002a;
   border-radius: 15px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
 }
 .aboutmetext {
   font-size: 2em !important;
-  color: #191919 !important;
+  color: #ffffff !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
@@ -357,15 +357,19 @@
 .aboutdetails {
   font-size: 1.1em !important;
   font-family: 'Poppins';
+  text-align: justify;
+  color: #cccccc;
 }
 .skilllist li {
   letter-spacing: 1px;
   font-family: 'Poppins';
+  color: #cccccc;
 }
 .skilllist {
   font-weight: 600;
   list-style-type: none;
   font-family: 'Poppins';
+  color: #fff;
 }
 .skilllist li:hover {
   transform: scale(1.05);
@@ -475,7 +479,6 @@
   min-height: 100vh;
   background-color: #4158d0;
   background: radial-gradient(ellipse farthest-corner at 0% 0%, #b5feff 0%, #00bfb2 8%, #028090 25%, #350163 62.5%, #013c43 100%);
-
   padding-top: 110px;
 }
 .contacthead {
@@ -484,6 +487,7 @@
   font-size: 3.2rem;
   font-weight: 800;
   letter-spacing: 1px;
+  color: #ffffff !important;
 }
 .contactpara {
   padding-top: 1rem;
@@ -492,18 +496,59 @@
   letter-spacing: 1px;
   padding-bottom: 1rem;
   font-family: 'Poppins';
+  color: #cccccc;
 }
 .contactbtn {
   display: block;
   margin: 0 auto;
   width: 150px;
   height: 50px;
-  border: solid 2px;
-  background-color: transparent;
+  border: solid 2px #ffff;
+  border-radius: 25px;
+  color: #ffff;
+  background-color: #0000003a;
   letter-spacing: 2px;
+  animation-name: contactbtn-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  animation-delay: 5s;
+  
 }
+
+@keyframes contactbtn-animation {
+  
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(6deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-4deg);
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+  40% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(6deg);
+    
+  }
+  60% {
+    transform: rotate(0deg);
+    
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+    
+  }
+}
+
+
 .contactbtn:hover {
-  background-color: rgba(51, 51, 51, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .copyright {
   position: absolute;
@@ -516,7 +561,7 @@
 }
 .copyright span {
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 1px;color: #8a8a8a;
 }
 @media (max-width: 767px) {
   .contactpara br {
