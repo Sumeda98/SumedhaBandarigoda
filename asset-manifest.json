@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/SumedhaBandarigoda/static/css/main.c2fba8d3.css",
-    "main.js": "/SumedhaBandarigoda/static/js/main.0cbf276b.js",
+    "main.css": "/SumedhaBandarigoda/static/css/main.a85baae5.css",
+    "main.js": "/SumedhaBandarigoda/static/js/main.3e342fc7.js",
     "static/media/SumedhaIMG1.png": "/SumedhaBandarigoda/static/media/SumedhaIMG1.3ed84f57bd4a3d683992.png",
     "static/media/web-removebg-preview.png": "/SumedhaBandarigoda/static/media/web-removebg-preview.9fed7f1d0b7ca01038fd.png",
+    "static/media/work&experience.png": "/SumedhaBandarigoda/static/media/work&experience.025bf22b806064dd7f50.png",
+    "static/media/github.png": "/SumedhaBandarigoda/static/media/github.ff2648078e819f6a9666.png",
+    "static/media/behance.jpeg": "/SumedhaBandarigoda/static/media/behance.8fb73b775f683ad74b08.jpeg",
+    "static/media/research.jpg": "/SumedhaBandarigoda/static/media/research.0ad5319c025f4fbf0a5c.jpg",
     "static/media/bars.svg": "/SumedhaBandarigoda/static/media/bars.a2e35dd5aede7934d82e.svg",
     "index.html": "/SumedhaBandarigoda/index.html",
-    "main.c2fba8d3.css.map": "/SumedhaBandarigoda/static/css/main.c2fba8d3.css.map",
-    "main.0cbf276b.js.map": "/SumedhaBandarigoda/static/js/main.0cbf276b.js.map"
+    "main.a85baae5.css.map": "/SumedhaBandarigoda/static/css/main.a85baae5.css.map",
+    "main.3e342fc7.js.map": "/SumedhaBandarigoda/static/js/main.3e342fc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2fba8d3.css",
-    "static/js/main.0cbf276b.js"
+    "static/css/main.a85baae5.css",
+    "static/js/main.3e342fc7.js"
   ]
 }
