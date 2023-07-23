@@ -18,7 +18,7 @@ function Aboutpage() {
               interface components using React concepts. Proficient in
               translating designs and wireframes into high-quality code. 
               
-              <p>pursued a degree in Information and Communication Technology
+              <p>I pursued a degree in Information and Communication Technology
               (BICT) Honours with a specialization in Multimedia Technology at
               the Faculty of Technology, University of Sri Jayewardenepura.</p>
 
@@ -39,7 +39,6 @@ function Aboutpage() {
                   <li>Adobe XD / Figma</li>
                   <li>GIT</li>
                   <li>GitHub / AWS</li>
-                  
                 </Col>
               </Row>
             </ul>

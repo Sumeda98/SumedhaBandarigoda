@@ -84,21 +84,47 @@
   padding-right: 2rem !important;
   padding-left: 1rem !important;
   font-family: 'Poppins';
+  position: relative; /* Needed for the pseudo-element to be positioned correctly */
+}
+
+.nav-link.active {
+  font-weight: 900 !important;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 90%;
+  height: 3px; /* Adjust this value to control the thickness of the underline */
+  background-color: white; /* Adjust the color of the underline */
+  border-radius: 20px; /* Adjust this value to control the rounded underline effect */
+  z-index: -1; /* Place the pseudo-element below the text */
+  text-decoration: none; /* Remove the default underline, since we are using pseudo-element */
+  text-underline-offset: 6px;
 }
 
 .nav-link:hover {
   font-weight: 900 !important;
   color: #9dd5ff !important;
 }
+
 .resumebtn {
+  color :#000000 !important;
   margin-left: 30px;
   border-radius: 25px;
   padding: 0 25px;
-  background-color: #4158d0;
   background-image: linear-gradient(43deg, #ffffff 40%, #bbddff 100%);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
   border: none;
 }
+.resumebtn:hover {
+  background-image: none;
+  background-color:  transparent !important;
+}
+
+
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 0rem !important;
@@ -342,17 +368,10 @@
 .aboutmetext span:hover {
   display: inline-block;
   transition: all 500ms;
-  color: #fff;
-  animation: vibrate 30ms linear infinite forwards;
+  color: #ffff;
+
 }
-@keyframes vibrate {
-  0% {
-    transform: translateX(-1px) translateY(1px);
-  }
-  100% {
-    transform: translateX(1px) translateY(-2px);
-  }
-}
+
 .aboutdetails {
   font-size: 1.1em !important;
   font-family: 'Poppins';
@@ -394,6 +413,56 @@
 }
 
 /* Projectpage style */
+
+.workEximage {
+  margin-left: 100px;
+  margin-top: 100px;
+  max-width: 300px;
+  height: 300px;
+  background-image: url(../Assets/work&experience.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.workExtextbackground {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: #0000002a;
+  border-radius: 15px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+}
+
+.workExtext {
+  font-size: 2em !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+.workExtext span:hover {
+  display: inline-block;
+  transition: all 500ms;
+  color: #fff;
+}
+
+.workExdetails {
+  font-size: 1.1em !important;
+  font-family: 'Poppins';
+  text-align: justify;
+  color: #cccccc;
+}
+.workExskilllist li {
+  letter-spacing: 1px;
+  font-family: 'Poppins';
+  list-style-type: circle;
+  color: #cccccc;
+}
+.workExskilllist {
+  list-style-type: none;
+  font-family: 'Poppins';
+  color: #fff;
+}
 
 .projectbackground {
   width: 100%;
@@ -449,14 +518,14 @@
 }
 
 .btn-primary {
-  color: #191919 !important;
+  color: #ffffff !important;
   background-color: transparent !important;
-  border-color: #191919 !important;
+  border-color: #ffffff !important;
 }
 
 .btn-primary:hover {
-  color: #e8e8e8 !important;
-  background-color: transparent !important;
+  color: #000000 !important;
+  background-color: #ffffff86 !important;
   border-color: #e8e8e8 !important;
 }
 .btn:focus {
@@ -507,9 +576,9 @@
   color: #ffff;
   background-color: #0000003a;
   letter-spacing: 2px;
-  animation-name: contactbtn-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
+  animation-name: contactbtn-animation; 
+  animation-duration: 2.1s; 
+  animation-iteration-count: infinite; 
   animation-delay: 2s;
 }
 
@@ -519,19 +588,19 @@
     transform: rotate(0deg);
   }
   10% {
-    transform: rotate(6deg);
+    transform: rotate(3deg);
   } /* The following five values can be played with to make the waving more or less extreme */
   20% {
-    transform: rotate(-4deg);
+    transform: rotate(-3deg);
   }
   30% {
-    transform: rotate(10deg);
+    transform: rotate(5deg);
   }
   40% {
     transform: rotate(-2deg);
   }
   50% {
-    transform: rotate(6deg);
+    transform: rotate(3deg);
     
   }
   60% {
